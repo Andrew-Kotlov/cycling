@@ -1,0 +1,121 @@
+.cart_block {
+    margin: 15px;
+    width: 290px;
+    height: 380px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: 1s;
+    border: none;
+}
+
+.cart_img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cart_img_block {
+    background-color: #d4ddea;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* background-image: url(../../public//images/no_foto.svg);
+    background-repeat: no-repeat; */
+}
+.cart_block_likes_and_time {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+    top: 5%;
+    bottom: 90%;
+}
+.no_image_block {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart_block_time {
+    width: 110px;
+    background-color: #fff;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    font-size: 14px;
+    color: #029cf5;
+    font-weight: 500;
+}
+.cart_block_like {
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.cart_block:hover {
+    scale: 1.1;
+    /* border: 3px solid #029cf5; */
+}
+.like {
+    transition: 0.5s;
+}
+.like:hover {
+    scale: 1.2;
+}
+.like:active{
+    scale: 1;
+}
+
+.cart_block:hover .cart_block_likes_and_time {
+    opacity: 1;
+}
+.cart_name {
+    width: 100%;
+    height: 10%;  
+}
+.cart_user_name {
+    width: 100%;
+    height: 10%;  
+}
+.cart_button {
+    width: 100%;
+    height: 10%;  
+}
+.cart_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.cart_details_text_name_cart {
+    width: 90%;
+    font-weight: 700;
+    font-size: 17px;
+}
+.cart_details_text_user_name {
+    width: 90%;
+    font-weight: 300;
+    font-size: 13px;
+}
+.clock {
+    margin-right: 5px;
+    color: #029cf5;
+}
