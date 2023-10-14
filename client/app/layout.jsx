@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
+        {/* <Header /> */}
         <div className="container">
           <div className="auto_reg_form">
             { children }
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
             <Carousel />
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
