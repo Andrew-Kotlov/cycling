@@ -13,16 +13,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    // <html lang="en">
+    //   <body className={inter.className}>
+    //     <Header />
+    //     <div className="container">
+    //       <div className="auto_reg_form">
+    //         { children }
+    //       </div>
+    //       <div className="carousel_container">
+    //         <Carousel />
+    //       </div>
+    //     </div>
+    //     <Footer />
+    //   </body>
+    // </html>
     <html lang="en">
       <body className={inter.className}>
-        {/* <Header /> */}
+        <Header />
         <div className="container">
-          <div className="auto_reg_form">
-            { children }
-          </div>
-          <div className="carousel_container">
-            <Carousel />
-          </div>
+          { children }
         </div>
         {/* <Footer /> */}
       </body>
