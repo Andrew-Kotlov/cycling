@@ -46,11 +46,6 @@ export default function Home() {
           </div>
         </form>
       </div>
-      <div className={style.about_company}>
-        <p>
-          © 2023 Велопрогулки. Все права защищены
-        </p>
-      </div>
     </div>
   );
 }

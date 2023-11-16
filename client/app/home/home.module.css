@@ -9,7 +9,7 @@
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
     border-radius: 15px;
     box-sizing: border-box;
 }
@@ -20,6 +20,12 @@
     justify-content: center;
     margin-top: 6%;
     flex-wrap: wrap;
+}
+.cart_container_block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px; 
+    width: 95%;
 }
 .banner {
     width: 100%;

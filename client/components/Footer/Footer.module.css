@@ -17,3 +17,9 @@
 .footer_content {
     color: aliceblue;
 }
+
+@media (max-width: 475px) {
+    .footer_content {
+        font-size: 14px;
+    }
+}
