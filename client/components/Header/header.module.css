@@ -15,7 +15,7 @@
     
 }
 .logo_img {
-    margin-left: 50px;
+    margin-left: 15%;
 }
 .navigation {
     width: 50%;
@@ -56,4 +56,35 @@
 }
 .container_navigation_list {
     display: flex;
+}
+.navigation_burger {
+    display: none;
+}
+@media (max-width: 475px) {
+    .container_navigation {
+        display: none;
+    }
+    .navigation {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation_burger {
+        display: block;
+        margin-right: 15%;
+    }
+    .navigation_burger_icon {
+        width: 30px;
+        height: 30px;
+        transition: 1s;
+    }
+    .navigation_burger_icon:hover {
+        scale: 1.1;
+        cursor: pointer;
+    }
+    .navigation_burger_icon:active {
+        scale: 1;
+        cursor: pointer;
+    }
 }

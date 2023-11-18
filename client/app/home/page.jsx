@@ -168,11 +168,11 @@ export default function Home() {
         </div>
       </div>
       <div className={style.cart_container}>
-        {data.map((el) => (
-          <div className={style.cart}>
+        <div className={style.cart_container_block}>
+          {data.map((el) => (
             <Cart name={el.nameTrack} userName={el.userName} />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
