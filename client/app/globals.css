@@ -15,9 +15,9 @@ ol, ul {
 } */
 
 .container {
-    width: 80vw;
+    /* width: 80vw; */
     margin: 0 auto;
-    padding: 16px;
+    /* padding: 16px; */
 }
 
 .auto_reg_form {
