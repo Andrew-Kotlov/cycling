@@ -19,10 +19,6 @@
     height: 500px;
 }
 
-.data_profile_track {
-    width: 75%;
-    background-color: blueviolet;
-}
 .profile_avatar {
     display: flex;
     justify-content: center;
@@ -53,6 +49,7 @@
     margin: 0 auto;
 }
 .profile_user_site {
+    font-size: 13px;
     font-weight: 700;
     text-align: center;
     margin-top: 25px;
@@ -116,12 +113,16 @@
 .profile_user_link_btn {
     margin-right: 25px;
     font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .profile_user_link_btn:hover {
     cursor: pointer;
 }
 
 .profile_user_date_reg {
+    font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,4 +136,59 @@
 
 .date_reg {
     margin-top: 25px;
+}
+
+.data_profile_track {
+    width: 75%;
+}
+
+.user_cart_container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.filter_block{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.filter_btn {
+    width: 8%;
+    margin: 15px 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 1s;
+}
+.filter_btn:first-child {
+    margin: 15px 0 15px 0px;
+}
+.filter_btn p {
+    margin: 5px;
+}
+
+.filter_btn:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #ffff;
+}
+
+.cart_block {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px; 
+    width: 95%;
+}
+
+.cart_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
