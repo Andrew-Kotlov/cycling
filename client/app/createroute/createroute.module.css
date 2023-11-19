@@ -1,0 +1,21 @@
+.container {
+    width: 100vw;
+}
+
+.create_container {
+    min-height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background-color:antiquewhite;
+    margin-top: 50px;
+}
+
+.add_description {
+    width: 60%;
+    padding: 25px;
+    background-color: bisque;
+}
+.name_input {
+    margin-top: 25px;
+}
